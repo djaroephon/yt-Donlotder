@@ -6,7 +6,7 @@ import threading
 
 def download_video():
     url = url_var.get()  # Get the URL from the entry field
-    download_dir = "C:\\Users\\Zettia\\Downloads\\PY_DONLOT"
+    download_dir = "C:\\your\\Path\\"
     
     # Ensure the directory exists
     if not os.path.exists(download_dir):
